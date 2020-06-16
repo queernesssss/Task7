@@ -5,10 +5,10 @@ public class Edge {
     private int vertex2;
     private int weight;
 
-    public Edge(int vertex1, int vertex2, int distance) {
+    public Edge(int vertex1, int vertex2, int weight) {
         this.vertex1 = vertex1;
         this.vertex2 = vertex2;
-        this.weight = distance;
+        this.weight = weight;
     }
 
     public int getWeight() {
